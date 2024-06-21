@@ -1,0 +1,54 @@
+body, h1, p, div, label, input, button, textarea {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.phone-directory {
+    max-width: 400px;
+    margin: 50px auto;
+    background:rgb(181, 181, 238);
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+.text-input {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+#save{
+    margin-left: 350px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }

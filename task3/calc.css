@@ -1,0 +1,38 @@
+.calc{
+    margin:auto;
+    padding: 20px; 
+    height: 540px;
+    width:480px; 
+    border: 2px solid;
+    border-radius: 15px;
+    background-color:rgb(43, 40, 40);
+    margin-top:150px;
+}
+.calc-display{
+    width:380px;
+    height:50px;
+    margin-bottom:5px;
+    border-radius:15px;
+    margin-left: 19px;
+}
+table, th, td {
+    border: 2px solid;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+input[type="button"] { 
+    font-weight: bold; 
+    font-size: 30px; 
+    padding: 20px 40px; 
+    background-image: linear-gradient(to right,#aca8a8,#FFF);
+    color: black; 
+    width: 100%;
+} 
+  
+input[type="text"] { 
+    padding: 20px 30px; 
+    font-size: 50px; 
+    font-weight: bold; 
+} 
+

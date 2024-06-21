@@ -1,0 +1,46 @@
+<div class="center">
+    <form>  
+        <label>Name: </label>         
+        <input type="text" name="name" size="20"/> <br> <br>  
+        Email :  
+        <input type="email" id="email" name="email"/> <br> <br>
+        Address  
+        <br>  
+        <textarea cols="50" rows="5" value="address">  
+        </textarea>  
+        <br> <br>
+        DOB :
+        <input type="date" name="date"/> <br> <br>
+        Age :
+        <input type="number" name="age"/> <br> <br>
+        <label>Gender :</label>  
+            <input type="radio" name="male"/> Male 
+            <input type="radio" name="female"/> Female 
+            <input type="radio" name="other"/> Other  <br> <br>
+        <div class="password-container">
+            <label>Password :</label> 
+            <input type="Password" id="pass" name="pass"> <i class="far fa-eye" id="togglePassword"></i><br> <br>
+        </div>    
+        Confirm password:  
+        <input type="Password" id="confpass" name="confpass"> <br> <br>  
+        <input type="button" value="Submit"/>  
+    </form>  
+    </div>
+    </body> 
+         
+    </html> 
+    
+    
+    /^[A-Z0-9][A-Z0-9._%+-]{0,63}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+
+
+
+
+            pattern= 
+				"^(?=.*\d)(?=.*[a-zA-Z])(?=.*[^a-zA-Z0-9])\S{8,}$" required				 
+				title="Password must contain at least one number, 
+					one alphabet, one symbol, and be at 
+					least 8 characters long">

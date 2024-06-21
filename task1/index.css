@@ -1,0 +1,80 @@
+body, h1, p, div, label, input, button, textarea {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.main {
+    max-width: 400px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: palevioletred;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: palevioletred;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    width: 400px;
+    height: 55px;
+}
+
+.btn:hover {
+    background-color: plum;
+}
+
+.radio-group {
+    display: flex;
+    align-items: flex-start;
+}
+
+.password-field,
+.confirm-password-field ,
+.icon-container{
+    position: relative;
+}
+
+.eye-icon {
+    position: absolute;
+    right: 5px; 
+    top: 40%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+

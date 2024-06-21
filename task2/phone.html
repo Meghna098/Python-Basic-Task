@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Contacts</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="phone.css">
+ </head>
+ <body>
+     <div class="phone-directory">
+         <h1>Contacts</h1>
+         <form id="details" action="" method="post">
+             <div class="text-input">
+                 <input type="text" id="name" name="name" placeholder="Name" value="" autocomplete="name" required>
+             </div>
+             <div class="text-input">
+                 <input type="tel" id="phone" name="phone" placeholder="Number" value="" autocomplete="phone" required>
+             </div>
+             <button type="button" id="save">Save</button><br><br>
+             <div>
+                 <table width="100%" id="contact-details" class="display" cellspacing="0">
+                     <tbody>
+                     </tbody>
+                 </table>
+             </div>
+         </form>
+     </div>
+     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.0/sweetalert.min.js"></script>
+     <script src="phone.js"></script>
+ </body>
+ </html>
+
